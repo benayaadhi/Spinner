@@ -1,5 +1,5 @@
 # Function Initialization
-def counterClockwise(List): #buat fungsi 
+def counterClockwise(List): #buat fungsi ada parameterny dinamakan List
     putarbalik = [] #buat tempat penyimpanan yg nanti akan di append
     for i in range(len(List[0]), 0, -1): #buat fungsi i dg jarak dr length parameter list,0 dan step -1 (jadi i 3 2 1 karna turun)
         putarbalik.append(list(map(lambda x: x[i-1], List))) #menggunakan append dan fungsi lambda. map digunakan karna iterasi. list harus ditulis kalo tidak nanti jd call objekny saja 
